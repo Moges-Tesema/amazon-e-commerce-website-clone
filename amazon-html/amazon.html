@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>amazon project</title>
+  <link rel="stylesheet" href="../amazon-css/header.css">
+  <link rel="stylesheet" href="../amazon-css/amazon.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="amazon-logo-container">
+      <div class="amazon-logo">
+        <a href="amazon.html" target="_self"><img src="../images/amazon-logo-white.png" class="logo-image"
+            alt="amazon project logo image">
+        </a>
+      </div>
+      <div class="mobile-logo">
+        <a href="amazon.html">
+          <img src="../images/amazon-mobile-logo-white.png" class="amazon-mobile-logo">
+        </a>
+      </div>
+
+    </div>
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder="Search">
+      <button id="search-button"><img src="../images/icons/search-icon.png" </button>
+    </div>
+    <nav class="cart-order-icon">
+      <div class="normal-cart">
+        <a href="order.html">
+          <div class="return-orders order-hover">
+            <p class="return-order-text">Return <span class="bold">&Orders</span></p>
+          </div>
+        </a>
+        <div class="cart">
+          <div class="cart-hover">
+            <a href="checkout.html">
+              <img id="cart" src="../images/icons/cart-icon.png">
+              <div class="product-no bold">
+                <p class="cart-quantity"></p>
+              </div>
+              <p class="bold cart-text">Cart</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-cart">
+        <img src="../images/icons/hamburger-menu.png" class="hamberger"></img>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- grid system of amazon- products-->
+  <main class="green">
+    <div class="products-container-grid">
+    </div>
+  </main>
+  <script type="module" src="../amazon-js/amazon.js"></script>
+</body>
+
+</html>
