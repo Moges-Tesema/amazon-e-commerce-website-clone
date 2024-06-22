@@ -1,0 +1,123 @@
+main{
+  color:rgb(37, 35, 35);
+  
+}
+.body-text{
+  font-weight: bold;
+  color:rgb(35, 32, 32);
+}
+
+.product-image {
+  height: 90%;
+  width:90%;
+  object-fit: contain;
+}
+
+.product-star {
+  width: 100px;
+}
+
+.star-value {
+  color: rgb(67, 67, 224);
+  font-size: 18px;
+}
+
+.product-number {
+  width: 45px;
+  height: 25px;
+  background-color: rgb(233, 231, 231);
+  border-radius: 5px;
+}
+
+.add-to-cart-button {
+  width: 150px;
+  height: 30px;
+  background-color: rgba(255, 242, 0, 0.7);
+  border-radius: 15px;
+  border: none;
+
+}
+.add-to-cart-button:hover{
+  background-color:rgba(185, 176, 16, 0.7);
+}
+.choose{
+  padding:5px;
+  border-radius: 8px;
+}
+
+.products-container-grid{
+  margin-top:61px;
+  margin-right: 2px;
+  margin-left: 2px;
+  background-color:rgb(242, 242, 249);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:5px;
+  
+}
+@media (max-width:550px){
+  .products-container-grid{
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width:551px) and (max-width:750px){
+  .products-container-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width:750.1px) and (max-width:900px){
+  .products-container-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width:900.01px) and (max-width:1019.01px){
+  .products-container-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width:1020px){
+  .products-container-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+.inner-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-gap:5px;
+}
+.product-image-grid-part{
+  padding-top:30px;
+  padding-left:10px;
+  height: 300px;
+}
+.product-detail-info{
+  display: grid;
+  background-color: bl;
+  grid-template-rows:repeat(3,50px);
+  align-items: center;
+  height: 350px;
+  padding-left: 20px;
+}
+.product-detail-info button{
+  border-color: rgb(192, 86, 24);
+}
+.product-detail-info p{
+  margin: 0px;
+  margin-bottom:5px;
+
+}
+.star-value{
+  display: inline-block;
+  margin-left: 5px;
+}
+.unchecked{
+  width:30px;
+  display: block;
+  opacity: 0;
+}
+.checked{
+opacity: 1;
+width:30px;
+display:block;
+}
