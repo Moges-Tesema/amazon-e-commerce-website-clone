@@ -1,0 +1,95 @@
+# React Topics
+
+## JavaScript Fundamentals
+- ES6 syntax and features
+- Closures and scope
+- Asynchronous JavaScript (Promises, async/await)
+
+## React Basics
+- JSX
+- Components (functional and class-based)
+- Props
+- State
+- Lifecycle Methods (for class-based components)
+
+## React Hooks
+- `useState`
+- `useEffect`
+- `useContext`
+- `useReducer`
+- `useCallback`
+- `useMemo`
+- Custom Hooks
+
+## State Management
+- Lifting State Up
+- Context API
+- Redux
+  - Actions
+  - Reducers
+  - Store
+  - Middleware (e.g., Redux Thunk, Redux Saga)
+
+## Routing
+- React Router
+- Dynamic Routing
+- Nested Routing
+- Link and NavLink
+
+## Forms and User Input
+- Controlled Components
+- Uncontrolled Components
+- Form Validation
+
+## Conditional Rendering
+- If-else statements
+- Ternary Operator
+- Logical && Operator
+
+## Lists and Keys
+- Rendering Arrays
+- Unique `key` prop
+
+## Styling in React
+- Inline Styles
+- CSS Modules
+- Styled Components
+- Emotion
+
+## Lifecycle Hooks
+- `useEffect`
+- `useLayoutEffect`
+- `useDebugValue`
+
+## Performance Optimization
+- Code Splitting
+- Memoization (`React.memo`, `useMemo`, `useCallback`)
+- Lazy Loading
+
+## Testing
+- Unit Testing (Jest, Enzyme)
+- Snapshot Testing
+- Integration Testing
+- End-to-End (E2E) Testing
+
+## Deployment and Hosting
+- Build Process
+- Static Site Hosting (e.g., Netlify, GitHub Pages)
+- Server-side Rendering (Next.js)
+
+## Advanced Concepts
+- Higher-Order Components (HOCs)
+- Render Props
+- Error Handling
+- Portals
+- Fragments
+- Refs
+
+## React Ecosystem
+- State Management (Redux, MobX)
+- Data Fetching (Axios, GraphQL)
+- UI Libraries (Material-UI, Ant Design)
+- Server-side Rendering (Next.js)
+- Static Site Generation (Gatsby)
+- Mobile Development (React Native)
+- Desktop Applications (Electron)
